@@ -1,0 +1,27 @@
+1) Qual comando gera um novo projeto Dart com os arquivos e a estrutura de diretorios necessarios ?
+
+a. dart create
+
+b. dart new
+
+c. dart init
+
+d. dart build
+
+
+R: é alternativa A, pois create signfica criar
+------------------------------------------------------------------------------------------------------------------------
+
+2) Todo programa em Dart comeca a ser executado a partir de uma funcao especifica. Qual eh o nome dessa funcao e por que ela eh importante ?
+
+a. A main funcao. Eh o ponto de entrada onde a execucao do programa comeca.
+
+b. A init funcao. Ela configura as variaveis antes do inÃ­cio do programa.
+
+c. A start funcao. Ela inicializa o ambiente de execucao.
+
+d. A run funcao. Ela eh chamada pelo comando dart run.
+
+R:
+
+
