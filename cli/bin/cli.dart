@@ -1,15 +1,17 @@
-const version = '0.08';
+const version = '0.09';
+ 
+void searchWikipedia(List<String>? arguments) {
+  final String articleTitle;
 
-void main(List<String> arguments) {
-  if (arguments.isEmpty || arguments.first == 'help') {
-    printUsage();
-  } else if (arguments.first == 'version') {
-    print('Dartpedia CLI version $version');
-  } else if (arguments.first == 'search') {
-    // Add this new block:
-    final inputArgs = arguments.length > 1 ? arguments.sublist(1) : null;
-    searchWikipedia(inputArgs);
+  // If the user didn't pass in arguments, request an article title.
+  if (arguments == null || arguments.isEmpty) {
+    print('Please provide an article title.');
+    // Await input and provide a default empty string if the input is null.
+    articleTitle = stdin.readLineSync() ?? '';
   } else {
-    printUsage();
+    // Otherwise, join the arguments into a single string.
+    articleTitle = arguments.join(' ');
   }
+
+  print('Current article title: $articleTitle');
 }
