@@ -1,5 +1,8 @@
-const version = '0.09';
- 
+const version = '0.10';
+
+import 'dart:io';
+import 'package:http/http.dart' as http; // Add this line
+
 void searchWikipedia(List<String>? arguments) {
   final String articleTitle;
 
@@ -9,9 +12,11 @@ void searchWikipedia(List<String>? arguments) {
     // Await input and provide a default empty string if the input is null.
     articleTitle = stdin.readLineSync() ?? '';
   } else {
-    // Otherwise, join the arguments into a single string.
+    // Otherwise, join the arguments into the CLI into a single string
     articleTitle = arguments.join(' ');
   }
 
-  print('Current article title: $articleTitle');
+  print('Looking up articles about "$articleTitle". Please wait.');
+  print('Here ya go!');
+  print('(Pretend this is an article about "$articleTitle")');
 }
