@@ -1,8 +1,5 @@
-import 'package:command_runner/command_runner.dart';
+/// Biblioteca principal da Dartpedia CLI.
+library;
 
-const version = '0.0.1';
-
-void main(List<String> arguments) {
-  var commandRunner = CommandRunner()..addCommand(HelpCommand());
-  commandRunner.run(arguments);
-}
+/// Versão atual da aplicação.
+const String appVersion = '4.0.0';
