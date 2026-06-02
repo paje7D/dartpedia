@@ -145,7 +145,7 @@ dart test
 
 ## Autores
 
-- **Eduardo da Silva Oliveirao**
+- **Eduardo da Silva Oliveira**
 - **Guilherme Natan**
 - **Pedro Otavio** 
 - **Gustavo Rodrigues**
