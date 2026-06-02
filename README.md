@@ -148,7 +148,7 @@ dart test
 - **Eduardo da Silva Oliveirao**
 - **Guilherme Natan**
 - **Pedro Otavio** 
-  **Gustavo Rodrigues**
+- **Gustavo Rodrigues**
 ---
 
 ## Licença
