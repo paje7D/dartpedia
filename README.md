@@ -145,9 +145,10 @@ dart test
 
 ## Autores
 
-- **Rafael Silva e Pinto** — rafael.s.pinto9@aluno.senai.br
-- **Ronaldo** — ronaldo.s.rodruigues9@aluno.senai.br
-
+- **Eduardo da Silva Oliveirao**
+- **Guilherme Natan**
+- **Pedro Otavio** 
+  **Gustavo Rodrigues**
 ---
 
 ## Licença
